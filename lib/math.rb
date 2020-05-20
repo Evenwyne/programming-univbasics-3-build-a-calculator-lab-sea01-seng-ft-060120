@@ -1,8 +1,5 @@
 def addition(num1, num2)
-  @num1 = gets.chomp
-    @num2 = gets.chomp
-    @num1 + @num2 == @answer
-    puts "The sum is... #{@answer}"
+  puts ${num1} + ${num2}
 end
 
 def subtraction(num1, num2)
