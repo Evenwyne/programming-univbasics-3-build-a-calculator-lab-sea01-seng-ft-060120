@@ -19,6 +19,6 @@ def modulo(num1, num2)
 end
 
 def square_root(num)
-  return num if num | 1 == 1
+  return square_root(num).to
     
 end
